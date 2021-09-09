@@ -1,10 +1,11 @@
 body {
-    margin: 0;
+    margin: auto;
     padding: 0;
     background: #FFF;
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    max-width: 1980px;
 }
 
 a,
@@ -366,7 +367,7 @@ a:hover {
     .site-navigation {
         position: absolute;
         top: 50%;
-        right: 20px;
+        right: 20%;
         transform: translate(0, -50%);
         -webkit-transform: translateY(-50%);
     }
@@ -575,7 +576,9 @@ a[data-lightbox]:hover img {
     max-height: 90vh;
     margin: 0 auto;
 }
-
+.logo{
+    height:40px;
+}
 .lightbox-caption {
     padding: 20px;
     color: #FFF;
