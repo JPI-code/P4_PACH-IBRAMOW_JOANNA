@@ -114,7 +114,8 @@ a:hover {
 }
 
 .d-bloc {
-    color: rgba(255, 255, 255, .7);
+    color: white;
+    text-align: center;
 }
 
 .d-bloc button:hover {
@@ -358,6 +359,7 @@ a:hover {
 .navbar-toggle {
     margin: 10px 10px 0 0;
     border: 0px;
+    visibility:hidden;
 }
 
 .navbar-toggle:hover {
@@ -617,7 +619,9 @@ a[data-lightbox]:hover img {
 #lightbox-modal .modal-dialog img {
     max-height: 90vh;
     margin: 0 auto;
+    /* height:100%; */
 }
+
 .logo{
     height:40px;
 }
@@ -629,6 +633,7 @@ a[data-lightbox]:hover img {
     left: 15px;
     right: 15px;
     bottom: 5px;
+    text-align: center;
 }
 
 .close-lightbox {
@@ -730,6 +735,8 @@ p {
     font-size: 15px;
 }
 
+
+
 .tight-width-whitespace {
     max-width: 600px;
     margin: auto auto auto auto;
@@ -776,6 +783,9 @@ h3 {
 h1 {
     color: white!important;
 }
+h2 {
+    color: white!important;
+}
 
 h4 {
     color: #333333!important;
@@ -805,7 +815,7 @@ h4 {
 
 .black-background {
     /* background-color: rgba(58, 44, 5, 0.7); */
-    background-color: #303030;
+    background-color:#364577;
     padding: 40px 40px 40px 40px;
 }
 
@@ -823,21 +833,16 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    /* background-color: #F3976C; */
-    background-color: #c27956;
+    background-color: #7b4328;
 }
 
 .tc-white {
-    /* color: #FAF1EE; */
-    color: #FFFFFF;
+    color:white;
 }
 
  /* CONTACT button */
 .btn-atomic-tangerine {
-    /* background: #FAF1EE;
-    color: #303030;
-    <!--to be checked--> */
-    background: #c27956!important;
+    background: #7b4328!important;
     color: #FFFFFF!important;
    
 }
@@ -848,6 +853,7 @@ h4 {
     color: #FFFFFF!important; */
        background: #FAF1EE!important;
     color: #303030!important;
+    transform: scale(1.1);
 }
 
 .ltc-white {
@@ -884,7 +890,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
@@ -979,6 +985,7 @@ h4 {
         margin-left: 0;
         margin-right: 0;
     }
+
     .site-navigation {
         position: inherit;
         transform: none;
