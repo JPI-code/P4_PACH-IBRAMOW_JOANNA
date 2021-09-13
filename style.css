@@ -741,12 +741,6 @@ p {
     margin: auto auto auto auto;
 }
 
-.h1 {
-    font-size: 20px;
-    font-family: "Open Sans";
-    /* color:#FFFFFF; */
-}
-
 .cta-hero {
     margin-top: 22px;
     color: #FFFFFF!important;
@@ -760,10 +754,15 @@ p {
     max-width: 400px;
     margin: auto auto auto auto;
 }
-
+h1 {
+    font-size: 20px;
+    font-family: "Open Sans";
+    color: white!important;
+}
 h2 {
     font-size: 30px;
     line-height: 1.4em;
+    color: white!important;
 }
 
 h3 {
@@ -773,22 +772,18 @@ h3 {
     color: #333333!important;
 }
 
+h4 {
+    color: #333333!important;
+}
 .med-width-whitespace {
     max-width: 800px;
     margin: auto auto auto auto;
     box-shadow: 0px 0px 0px #000000;
 }
 
-h1 {
-    color: white!important;
-}
-h2 {
-    color: white!important;
-}
 
-h4 {
-    color: #333333!important;
-}
+
+
 
 .icons {
     margin-bottom: 14px;
